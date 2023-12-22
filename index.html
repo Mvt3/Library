@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Quicksand:wght@300&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="Library"><h1>Library</h1></div>
+        </div>
+
+        <div id="form" class="hiddenDiv">
+            <!-- Contenido del div que quieres mostrar/ocultar -->
+            <div class="form-container">
+                <form class= "table">
+                    <!-- Campos de entrada del formulario -->
+                    <label for="bookName">Book name</label>
+                    <input type="text" id="bookName" name="book-name" required>
+                
+                    <label for="bookAuthor">Book Author</label>
+                    <input type="text" id="bookAuthor" name="book-author" required>
+    
+                    <label for="bookPages">Book pages</label>
+                    <input type="text" id="bookPages" name="book-pages" required>
+                
+                    <!-- Otros campos de entrada, como contraseñas, selectores, etc. -->
+                
+                    <!-- Botón de envío del formulario -->
+                    <button class="add-btn" type="button">Save book</button>
+                </form>
+            </div>
+            
+          </div>
+
+        <div class="main">
+            <div class="bookers">
+                <h2>All books</h2>
+                <div class="newBook">
+                    <button class="newBookB">Add a new book!</button>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="cards">
+            
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
